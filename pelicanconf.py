@@ -8,6 +8,12 @@ SITEURL = ''
 
 PATH = 'content'
 STATIC_PATHS = ['images']
+THEME = 'themes/pelican-clean-blog'
+GITHUB_URL = 'http://github.com/myprofile'
+TWITTER_URL = 'http://twitter.com/myprofile'
+FACEBOOK_URL = 'http://facebook.com/myprofile'
+
+COLOR_SCHEME_CSS = 'tomorrow_night.css'
 
 TIMEZONE = 'Europe/Dublin'
 
