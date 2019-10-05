@@ -39,6 +39,14 @@ AUTHOR_FEED_RSS = None
 
 DEFAULT_PAGINATION = 10
 
+PLUGIN_PATHS = ['plugins']
+PLUGINS = ['bootstrapify']
+
+BOOTSTRAPIFY = {
+    'table': ['table', 'table-striped', 'table-hover'],
+    'img': ['img-fluid'],
+    'blockquote': ['blockquote'],
+}
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
 
